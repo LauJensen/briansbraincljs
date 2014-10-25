@@ -17,7 +17,8 @@
     :builds [{:id "brianscript"
               :source-paths ["src"]
               :compiler {
-                :output-to "brianscript.js"
-                :output-dir "out"
+                :output-to "out/brianscript/core.js"
+                :output-dir "out/brianscript/"
                 :optimizations :none
-                :source-map true}}]})
+                :source-map :true; "out/brianscript/core.js.map"
+}}]})
