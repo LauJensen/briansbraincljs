@@ -19,6 +19,6 @@
               :compiler {
                 :output-to "out/brianscript/core.js"
                 :output-dir "out/brianscript/"
-                :optimizations :none
-                :source-map :true; "out/brianscript/core.js.map"
+                :optimizations :advanced
+                :source-map "out/brianscript/core.js.map"
 }}]})
